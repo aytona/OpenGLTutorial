@@ -1069,7 +1069,6 @@
 		B8542C9548A74B6D8FE5ABE8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = glfw/tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		B995142C3F344B5781DC1BB9 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = xcode/glfw/tests/CMakeFiles/threads.dir/Info.plist; sourceTree = SOURCE_ROOT; };
 		BD34D0F032EF4F96844FE9A4 /* iconify.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = iconify.c; path = glfw/tests/iconify.c; sourceTree = SOURCE_ROOT; };
-		C44895D1ACFD437394BAD198 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		C4D49A55AA094A77B068BC42 /* getopt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = getopt.h; path = glfw/deps/getopt.h; sourceTree = SOURCE_ROOT; };
 		C5690E9699454F1FBE4C8C8C /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = glfw/tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		C746D43E67644AF592F5B97E /* tearing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = tearing.c; path = glfw/tests/tearing.c; sourceTree = SOURCE_ROOT; };
@@ -1675,7 +1674,6 @@
 			isa = PBXGroup;
 			children = (
 				EAEC9CEAC89D4FAD8EE30088 /* Source Files */,
-				C44895D1ACFD437394BAD198 /* CMakeLists.txt */,
 			);
 			name = Version;
 			sourceTree = "<group>";
