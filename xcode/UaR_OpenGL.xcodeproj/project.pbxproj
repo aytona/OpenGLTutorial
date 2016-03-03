@@ -122,6 +122,7 @@
 		86FF40A2DEFB45A88040F61E /* cocoa_gamma.c in Sources */ = {isa = PBXBuildFile; fileRef = 0524653A419F439FB6F68F16 /* cocoa_gamma.c */; settings = {COMPILER_FLAGS = ""; }; };
 		9203159E33504DEEBEEE426E /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E6368A85E44C0487870B55 /* getopt.c */; settings = {COMPILER_FLAGS = ""; }; };
 		92657F53F8E44FC9814DCE89 /* ImmediateTriangles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB5FE824B4A4CDAAF78236D /* ImmediateTriangles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		983306961C87F8770028B36A /* GL_Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983306951C87F8770028B36A /* GL_Version.cpp */; };
 		9A84135AA5504FDD9126130C /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = A1FF441295D0469BB45D385B /* cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
 		9D739ADA83814DE595A5458E /* TextureLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E75D4C0F0D461A91F57903 /* TextureLoader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		9DC88B609AF64704B0D7F0E3 /* threads.c in Sources */ = {isa = PBXBuildFile; fileRef = 063C986A7FF64DD1AF45D024 /* threads.c */; settings = {COMPILER_FLAGS = ""; }; };
@@ -144,7 +145,6 @@
 		CE367C3F53F54CFAACB1B896 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 1458926967DA4D48A261FA2A /* input.c */; settings = {COMPILER_FLAGS = ""; }; };
 		DC0F3F8831CF4D3D8412BADD /* peter.c in Sources */ = {isa = PBXBuildFile; fileRef = 1555E7CCF3DA43DD88BB9FB8 /* peter.c */; settings = {COMPILER_FLAGS = ""; }; };
 		DCE0ABC914444276ADD8B67D /* events.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D13B553FB94420AB0061373 /* events.c */; settings = {COMPILER_FLAGS = ""; }; };
-		E299B876E2C045E38F623A73 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50BA1E57411D45D991B66956 /* Version.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		E4F888083E9D4381B596426F /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 767FBC3B97B64C0CAF89B1D7 /* cocoa_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
 		E531F049D44B4D4AB82B3A17 /* fsaa.c in Sources */ = {isa = PBXBuildFile; fileRef = EBBBDD4D4512429C963CBD53 /* fsaa.c */; settings = {COMPILER_FLAGS = ""; }; };
 		E69E26B947BC4C2BB5D21040 /* Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A62A7899AC647499F26CDF8 /* Keyboard.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -998,7 +998,6 @@
 		4DD7AA16E45A4E6992EDFB52 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		4DFE81A847A3485FA7F698E0 /* Lighting.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lighting.cpp; path = examples/Lighting.cpp; sourceTree = SOURCE_ROOT; };
 		4EEE53F4E5064430A113AF11 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		50BA1E57411D45D991B66956 /* Version.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Version.cpp; path = examples/Version.cpp; sourceTree = SOURCE_ROOT; };
 		50BC41F22A98405380EDF672 /* accuracy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = accuracy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		519FD03CE7FC488389163B75 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = glfw/tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		54145027A58E4DB8AF5F7183 /* getopt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = getopt.h; path = glfw/deps/getopt.h; sourceTree = SOURCE_ROOT; };
@@ -1044,6 +1043,7 @@
 		91AD12C8EA114FD495DAC29A /* windows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = windows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E56639CEB84DFBBE961E9C /* GLFWwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLFWwindow.cpp; path = examples/GLFWwindow.cpp; sourceTree = SOURCE_ROOT; };
 		957B51A672E04229B827777E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = glfw/tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		983306951C87F8770028B36A /* GL_Version.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GL_Version.cpp; path = examples/GL_Version.cpp; sourceTree = SOURCE_ROOT; };
 		98A9BD8CA1E54CD386C9EBDD /* getopt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = getopt.h; path = glfw/deps/getopt.h; sourceTree = SOURCE_ROOT; };
 		9DC5CE779C6F43C680994621 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = xcode/glfw/tests/CMakeFiles/title.dir/Info.plist; sourceTree = SOURCE_ROOT; };
 		9E80A7DAEA834B1DA23C14AA /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
@@ -1985,7 +1985,7 @@
 		EAEC9CEAC89D4FAD8EE30088 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				50BA1E57411D45D991B66956 /* Version.cpp */,
+				983306951C87F8770028B36A /* GL_Version.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -2971,7 +2971,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E299B876E2C045E38F623A73 /* Version.cpp in Sources */,
+				983306961C87F8770028B36A /* GL_Version.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
