@@ -6,7 +6,6 @@
 //
 //
 
-#include <stdio.h>
 #include <iostream>
 #define GLEW_STATIC
 #include <GL/glew.h>
