@@ -123,6 +123,7 @@
 		92657F53F8E44FC9814DCE89 /* ImmediateTriangles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEB5FE824B4A4CDAAF78236D /* ImmediateTriangles.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		983306961C87F8770028B36A /* GL_Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983306951C87F8770028B36A /* GL_Version.cpp */; };
 		983306981C8932C60028B36A /* GLFW_Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983306971C8932C60028B36A /* GLFW_Window.cpp */; };
+		9833069C1C8A9CB70028B36A /* Final.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9833069B1C8A9C9B0028B36A /* Final.cpp */; };
 		9A84135AA5504FDD9126130C /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = A1FF441295D0469BB45D385B /* cocoa_time.c */; settings = {COMPILER_FLAGS = ""; }; };
 		9D739ADA83814DE595A5458E /* TextureLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55E75D4C0F0D461A91F57903 /* TextureLoader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		9DC88B609AF64704B0D7F0E3 /* threads.c in Sources */ = {isa = PBXBuildFile; fileRef = 063C986A7FF64DD1AF45D024 /* threads.c */; settings = {COMPILER_FLAGS = ""; }; };
@@ -1044,6 +1045,7 @@
 		957B51A672E04229B827777E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = glfw/tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 		983306951C87F8770028B36A /* GL_Version.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GL_Version.cpp; path = examples/GL_Version.cpp; sourceTree = SOURCE_ROOT; };
 		983306971C8932C60028B36A /* GLFW_Window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLFW_Window.cpp; path = examples/GLFW_Window.cpp; sourceTree = SOURCE_ROOT; };
+		9833069B1C8A9C9B0028B36A /* Final.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; name = Final.cpp; path = examples/Final.cpp; sourceTree = SOURCE_ROOT; };
 		98A9BD8CA1E54CD386C9EBDD /* getopt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = getopt.h; path = glfw/deps/getopt.h; sourceTree = SOURCE_ROOT; };
 		9DC5CE779C6F43C680994621 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = xcode/glfw/tests/CMakeFiles/title.dir/Info.plist; sourceTree = SOURCE_ROOT; };
 		9E80A7DAEA834B1DA23C14AA /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
@@ -1647,6 +1649,14 @@
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
+		9833069A1C8A9C4E0028B36A /* Final */ = {
+			isa = PBXGroup;
+			children = (
+				9833069B1C8A9C9B0028B36A /* Final.cpp */,
+			);
+			name = Final;
+			sourceTree = "<group>";
+		};
 		986BBB1743864C12ABA99EF3 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1791,6 +1801,7 @@
 		C72F083419F64FD1A7B977D9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9833069A1C8A9C4E0028B36A /* Final */,
 				E02B7B187D244C0C9940D4D8 /* TextureLoader */,
 				3C94C74E301743C8A05297F6 /* Texture */,
 				DE7FB42ED19C4B2F95478903 /* Mouse */,
@@ -2971,6 +2982,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9833069C1C8A9CB70028B36A /* Final.cpp in Sources */,
 				983306961C87F8770028B36A /* GL_Version.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
